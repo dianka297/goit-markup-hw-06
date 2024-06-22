@@ -48,7 +48,26 @@ ul, ol {
   padding-left: 0;
 }
 
-.header {
+.container{
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container{
+    max-width: 768px;
+  } 
+}
+@media  screen and (min-width: 1158px) {
+  .container{
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+  
+}
+
+
+ .header{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
@@ -156,6 +175,13 @@ ul, ol {
  .address-link:hover,
  .address-link:focus{
     color: #404bbf;
+ }
+
+ .open-menu-btn{
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
  }
 
 /*----------- section-one-title----------- */
