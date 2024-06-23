@@ -75,11 +75,7 @@ ul, ol {
   top: 16px;
   right: 16px;
 }
-@media screen and (min-width: 768px) {
-  .header-btn {
-      display: none;
-  }
-}
+
 
  .header{
     border-bottom: 1px solid #e7e9fc;
