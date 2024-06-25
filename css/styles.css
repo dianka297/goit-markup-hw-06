@@ -461,6 +461,9 @@ ul, ol {
     border-radius: 4px;
     margin-bottom: 8px;   
 }
+.advantages-social-icon{
+  display: block;
+}
 
 .advantages-item-title{
     margin-bottom: 8px;
