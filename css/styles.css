@@ -317,7 +317,41 @@ ul, ol {
     fill: #ffffff;
   }
 /*----------- section-one-title----------- */
-.hero{
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+}
+.section-one {
+  padding: 72px 0;
+  /* padding: 188px 0; */
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/-img-name.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 432px;
+  max-width: 320px;
+  /* height: 600px;
+  max-width: 1440px; */
+  margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-mobxx.jpg);
+  }
+}
+.section-one{
     background-color: rgba(46, 47, 66, 0.7); 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-repeat: no-repeat;
@@ -331,7 +365,7 @@ ul, ol {
 }
 
 
-.hero-container{
+.container{
     text-align: center;
 }
 
