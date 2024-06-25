@@ -173,7 +173,6 @@ ul, ol {
 }
   @media screen and (min-width:768px) {
   
-  
     .open-menu-btn {
     display: none;
     }
@@ -185,7 +184,7 @@ ul, ol {
       gap: 40px; 
     }
 
-.header-info-item{
+   .header-info-item{
     display: flex;
     gap: 40px;
 }
@@ -334,7 +333,6 @@ ul, ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 432px;
   max-width: 320px;
   /* height: 600px;
   max-width: 1440px; */
@@ -365,9 +363,6 @@ ul, ol {
 }
 
 
-.container{
-    text-align: center;
-}
 
 .general-title{
     font-family: "Roboto", sans-serif;
@@ -461,9 +456,6 @@ ul, ol {
     border-radius: 4px;
     margin-bottom: 8px;   
 }
-.advantages-social-icon{
-  display: block;
-}
 
 .advantages-item-title{
     margin-bottom: 8px;
@@ -475,6 +467,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455; 
+    text-align: left;
 }
 
 /* -----------team----------- */
@@ -584,7 +577,6 @@ ul, ol {
 }
 
 .portfolio-list {
-    padding-top: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -684,7 +676,6 @@ ul, ol {
    line-height: 150%;
    letter-spacing: 0.02em;
     color: #ffffff;
-    margin-top: 16px;
   }
  
 
@@ -1155,9 +1146,9 @@ label {
 }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .advantages {
-      width: 1440px;
+      width: 1158px;
   }
 
   .container .advantages-container{
@@ -1193,18 +1184,18 @@ label {
   }
 
   .advantages-item-title{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 
   .team-list {
     gap: 24px;
 }
 
-.portfolio .container{
-  padding: 120px 156px;
-}
 
 .portfolio-list {
   gap: 48px 24px;
@@ -1250,6 +1241,11 @@ label {
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
 .advantages-item-title{
-  text-align: start;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   }
 }
