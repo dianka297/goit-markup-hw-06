@@ -1045,9 +1045,6 @@ label {
 
 
 @media screen and (min-width: 768px) {
-  .advantages-container {
-      width: 768px;
-  }
   .advantages-list {
       gap: 72px 24px;
   }
@@ -1126,9 +1123,6 @@ label {
     padding: 120px 156px;
   }
 
-  .team .container{
-    padding: 120px 156px;
-  }
 
   .advantages-list{
     gap: 24px;
