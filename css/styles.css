@@ -1096,10 +1096,17 @@ margin-bottom: 16px;
 
 .socials-list-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
     gap: 16px;
 }
+
+.socials-item-footer {
+    width: 40px;
+    height: 40px;
+}
+
 
 .socials-icon-footer  {
     fill:#f4f4fd; 
