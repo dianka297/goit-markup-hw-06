@@ -1094,7 +1094,7 @@ color: #fff;
 margin-bottom: 16px;
 }
 
-.socials-list-footer {
+.social-list-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1186,12 +1186,12 @@ margin-bottom: 16px;
     border: 1px solid #ffffff; 
     background-color: transparent;
     border-radius: 4px;
-width: 288px;
-height: 40px;
-font-size: 12px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-padding: 8px 24px;
-line-height: 2;
+    width: 288px;
+    height: 40px;
+    font-size: 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+   padding: 8px 24px;
+    line-height: 2;
     letter-spacing: 0.04em;
     color:#ffffff;
 }
@@ -1326,7 +1326,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fieldset {
-    position: relative;
     margin-bottom: 8px;
 }
 
