@@ -1378,7 +1378,7 @@ padding-left: 38px;
 border: 1px solid #4d5ae5; 
 }
 
-.icon-input {
+.modal-icon {
     fill: #2e2f42;
     position: absolute;
 top: 50%;
@@ -1460,6 +1460,7 @@ display:inline-block;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+    margin-left: 4px;
     
 }
 
