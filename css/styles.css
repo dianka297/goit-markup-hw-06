@@ -451,11 +451,10 @@ background-color: #4d5ae5;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-max-width: 496px;
+max-width: 376px;
 margin-right: auto;
 margin-left: auto;
 margin-bottom: 72px; 
@@ -1058,11 +1057,11 @@ padding-bottom: 100px;
 
 .footer-text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    width: 264px;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 16px;
 }
 
 @media screen and (min-width: 1158px) {
@@ -1325,7 +1324,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fieldset {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .modal-title {
@@ -1469,17 +1468,20 @@ display:inline-block;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent; 
     flex-shrink: 0;
+    margin-right: 8px;
 }
 
 .policy-input:checked + .policy-label > .policy-checked {
 background-color: #404bbf;
 border: none; 
-fill: #F4F4FD; 
+fill: #F4F4FD;
+border: none;
 }
 
 
@@ -1502,7 +1504,7 @@ color: #ffffff;
 cursor: pointer;
 padding: 16px 32px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-margin: 0 auto;
+margin: auto;
 }
 
 .send-btn:active {
