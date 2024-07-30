@@ -1019,24 +1019,19 @@ padding-bottom: 100px;
 }
 
 .container-footer-logo {  
+
 }
 
 @media screen and (min-width: 768px) {
     .container-footer-logo {
-    
      max-width: 264px;
     }
     }
 
     @media screen and (min-width: 1158px) {
         .container-footer-logo {
-            padding-top: 100px;
-            padding-bottom: 100px;
-            padding-left: 156px;
-            display: flex;
-            flex-direction: row;
-            max-width: 1440px;
-            align-items: baseline;
+         max-width: 264px;
+         margin-right: 120px;
         }
         }
 
