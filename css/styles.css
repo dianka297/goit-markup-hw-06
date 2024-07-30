@@ -157,7 +157,7 @@ margin-bottom: auto;
     }
 }
 
-.logo {
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -167,21 +167,27 @@ margin-bottom: auto;
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 16px 0;
+    display: block;
+  } 
+
 @media screen and (min-width: 768px) {
-    .logo {
+     .header-logo{
+        padding: 24px 0;
         margin-right: 120px;
     }   
 }
 
 @media screen and (min-width: 1158px) {
-    .logo {
+    .header-logo {
         margin-right: 76px;
     }   
 }
 
 .logo-colored {color: #2e2f42;}
 
-.logo:hover, logo:focus {
+.logo-header:hover, .logo-header:focus {
 color: #404bbf;
 }
 
@@ -304,29 +310,21 @@ color: #2e2f42;
 }
 
 .address-link-mobil {
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #434455;
-font-style: normal;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.address-link-mobil:focus {color: #404bbf;}
+.address-link-mobil:focus {
+    color: #404bbf;
+}
 
 .socials-icon-mobil  {
     fill:#f4f4fd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    width: 264px;
-    border: 1px solid #8e8f99;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px; 
 }
 
 .socials-list-mobil {
@@ -454,7 +452,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-max-width: 216px;
+max-width: 496px;
 margin-right: auto;
 margin-left: auto;
 margin-bottom: 72px; 
@@ -1005,8 +1003,8 @@ padding-bottom: 100px;
         display: flex;
        flex-direction: row;
        flex-wrap: wrap;
-       align-items: center;
-      gap: 24px;
+       align-items: baseline;
+      gap: 72px 24px;
     }
 }
 
@@ -1021,20 +1019,29 @@ padding-bottom: 100px;
 }
 
 .container-footer-logo {
-    margin-bottom: 16px;
+    margin-bottom: 72px;
     
 }
 
 @media screen and (min-width: 768px) {
     .container-footer-logo {
-        margin-bottom: 0;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 108px;
+        padding-right: 164px;
+        max-width: 264px;
     }
     }
 
     @media screen and (min-width: 1158px) {
         .container-footer-logo {
-            margin-right: 120px;
-            margin-bottom: 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-left: 156px;
+            display: flex;
+            flex-direction: row;
+            max-width: 1440px;
+            align-items: baseline;
         }
         }
 
@@ -1061,7 +1068,6 @@ padding-bottom: 100px;
    line-height: 150%;
    letter-spacing: 0.02em;
     color: #ffffff;
-    margin-top: 16px;
 }
 
 @media screen and (min-width: 1158px) {
@@ -1074,12 +1080,14 @@ padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    margin-bottom: 72px; 
 }
 
 @media screen and (min-width: 768px) {
     .container-footer-socials {
-        align-items:self-start;  
+        align-items: self-start;  
+        margin-bottom: 0;
     }
 }
 
