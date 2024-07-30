@@ -1019,12 +1019,11 @@ padding-bottom: 100px;
 }
 
 .container-footer-logo {  
-    margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
     .container-footer-logo {
-     margin-bottom: 0;
+    
      max-width: 264px;
     }
     }
